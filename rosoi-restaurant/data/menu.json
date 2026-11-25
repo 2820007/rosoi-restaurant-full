@@ -1,0 +1,203 @@
+{
+  "restaurant": {
+    "name": "Rosoi",
+    "tagline": "Delicious & Mouth Watering Test",
+    "phone": "+91 98765 43210",
+    "email": "hello@rosoi.example",
+    "address": "21 Spice Lane, Indore, India",
+    "hours": "Mon - Sun: 11:00 AM - 11:00 PM"
+  },
+  "categories": [
+    {
+      "id": "all",
+      "name": "All"
+    },
+    {
+      "id": "starters",
+      "name": "Starters"
+    },
+    {
+      "id": "mains",
+      "name": "Main Course"
+    },
+    {
+      "id": "bowls",
+      "name": "Bowls & Salads"
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "Veg Garden Bowl",
+      "category": "bowls",
+      "price": 249,
+      "rating": 4.8,
+      "veg": true,
+      "popular": true,
+      "description": "Fresh greens, roasted veggies, quinoa and a lemon-tahini dressing.",
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Classic Beef Burger",
+      "category": "mains",
+      "price": 329,
+      "rating": 4.7,
+      "veg": false,
+      "popular": true,
+      "description": "Juicy grilled patty, cheddar, caramelised onions and house sauce.",
+      "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80"
+    },
+    {
+      "id": 3,
+      "name": "Berry Pancake Stack",
+      "category": "desserts",
+      "price": 189,
+      "rating": 4.6,
+      "veg": true,
+      "popular": false,
+      "description": "Fluffy pancakes with fresh berries and maple syrup.",
+      "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Berry Cheesecake",
+      "category": "desserts",
+      "price": 199,
+      "rating": 4.5,
+      "veg": true,
+      "popular": true,
+      "description": "Creamy baked cheesecake topped with fresh berries and a glossy glaze.",
+      "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80"
+    },
+    {
+      "id": 5,
+      "name": "Mediterranean Salad",
+      "category": "bowls",
+      "price": 219,
+      "rating": 4.4,
+      "veg": true,
+      "popular": false,
+      "description": "Cucumber, olives, feta, cherry tomatoes and oregano vinaigrette.",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&q=80"
+    },
+    {
+      "id": 6,
+      "name": "Mixed Grill Platter",
+      "category": "starters",
+      "price": 399,
+      "rating": 4.3,
+      "veg": false,
+      "popular": false,
+      "description": "Charcoal-grilled skewers served with dips, salad and flatbread.",
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80"
+    },
+    {
+      "id": 7,
+      "name": "Smoky BBQ Wings",
+      "category": "starters",
+      "price": 279,
+      "rating": 4.7,
+      "veg": false,
+      "popular": true,
+      "description": "Slow-cooked chicken wings glazed in smoky barbecue sauce.",
+      "image": "https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=800&q=80"
+    },
+    {
+      "id": 8,
+      "name": "Garden Fresh Bowl",
+      "category": "bowls",
+      "price": 239,
+      "rating": 4.5,
+      "veg": true,
+      "popular": false,
+      "description": "Mixed leaves, avocado, chickpeas and a citrus glaze.",
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80"
+    },
+    {
+      "id": 9,
+      "name": "Chef's Feast Platter",
+      "category": "mains",
+      "price": 549,
+      "rating": 4.9,
+      "veg": false,
+      "popular": true,
+      "description": "A generous spread of our best grilled meats and sides, made for sharing.",
+      "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80"
+    },
+    {
+      "id": 10,
+      "name": "Wood-fired Pizza",
+      "category": "mains",
+      "price": 349,
+      "rating": 4.6,
+      "veg": true,
+      "popular": true,
+      "description": "Stone-baked pizza with mozzarella, basil and San Marzano tomatoes.",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80"
+    },
+    {
+      "id": 12,
+      "name": "Chocolate Lava Cake",
+      "category": "desserts",
+      "price": 179,
+      "rating": 4.9,
+      "veg": true,
+      "popular": true,
+      "description": "Warm molten chocolate centre served with vanilla ice cream.",
+      "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=800&q=80"
+    },
+    {
+      "id": 13,
+      "name": "Fresh Fruit Parfait",
+      "category": "desserts",
+      "price": 159,
+      "rating": 4.4,
+      "veg": true,
+      "popular": false,
+      "description": "Layers of yoghurt, granola and seasonal fruit.",
+      "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&q=80"
+    },
+    {
+      "id": 14,
+      "name": "Mint Lemonade",
+      "category": "drinks",
+      "price": 99,
+      "rating": 4.5,
+      "veg": true,
+      "popular": false,
+      "description": "Chilled lemonade muddled with fresh mint.",
+      "image": "https://images.unsplash.com/photo-1523371054106-bbf80586c38c?w=800&q=80"
+    },
+    {
+      "id": 15,
+      "name": "Iced Caramel Coffee",
+      "category": "drinks",
+      "price": 149,
+      "rating": 4.6,
+      "veg": true,
+      "popular": false,
+      "description": "Cold brew with caramel drizzle and creamy milk foam.",
+      "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800&q=80"
+    },
+    {
+      "id": 16,
+      "name": "Spicy Tikka Skewers",
+      "category": "starters",
+      "price": 259,
+      "rating": 4.7,
+      "veg": false,
+      "popular": true,
+      "description": "Charcoal-grilled marinated chicken tikka with onion salad.",
+      "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=800&q=80"
+    }
+  ]
+}
